@@ -1,68 +1,75 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Home - David Ordone</title>
-        <meta charset="utf-8">
-        <link rel="icon" href="imagens/favicon.png">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/site.css">
-        
-        <!-- carrega a fonte Crimson Text nas versões normal, itálico e negrito -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>David Ordone - Desenvolvedor Web</title>
+    <link rel="shortcut icon" href="imagens/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Shadows+Into+Light">
+</head>
+<body>
+    <header id="titulo-principal">
+        <a class="banner-twitter" href="https://twitter.com/gameplayanbu">Siga-me no Twitter</a>
+        <img class="foto-home" src="imagens/david.png" alt="Foto de David Ordone">
+        <h1>David Ordone</h1>
+        <p class="subtitulo-principal">Desenvolvedor web</p>
 
-        <!-- carrega a fonte Open Sans Condensed na versão negrito, -->
-        <!-- que é a única necessária para os cabeçalhos            -->
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
-        <!-- Pirata suicida: prefiro morrer do que perder a vida. -->
-    </head>
-    <body>
-        <main>
-            <h1 id="titulo-principal">Home</h1>
-            <div id="feed">
-                
-            </div>
-        </main>
-        <div>
-            <img id="minha-foto" src="imagens/david.png" atl="Foto do David Ordone">
-        </div>
-        <aside class="navegacao-site">
-            <div>
-                <h1>David Ordone</h1>
-                <nav>
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="bio.html">Sobre mim</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-                <div>
-                    <ul class="icones-sociais">
-                        <li>
-                            <a class="github" href="https://github.com/TurkojanOwnz">
-                                Github
-                            </a>
-                        </li>
-                        <li>
-                            <a class="twitter" href="https://twitter.com/gameplayanbu">
-                                Twitter
-                            </a>
-                        </li>
-                        <li>
-                            <a class="linkedin" href="https://www.linkedin.com/in/daviddiasordone/">
-                                LinkedIn
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </aside>
-        <footer id="rodape-pagina">
-            &copy; David Ordone 2023
-            <ul class="icones-sociais">
-
+        <ul class="lista-palavras-home">
+            <li class="palavra-home eficiencia">Eficiência</li>
+            <li class="palavra-home boas-praticas">Boas práticas</li>
+            <li class="palavra-home codigo-limpo">Código limpo</li>
+            <li class="palavra-home css3">CSS3</li>
+            <li class="palavra-home html5">HTML5</li>
+            <li class="palavra-home javascript">JavaScript</li>
+            <li class="palavra-home acessibilidade">Acessibilidade</li>
+            <li class="palavra-home responsivo">Responsivo</li>
+            <li class="palavra-home otimizacoes">Otimizações</li>
+            <li class="palavra-home agilidade">Agilidade</li>
+            <li class="palavra-home design">Design</li>
+        </ul>
+    </header>
+    <main>
+        <section class="secao-inicio saudacao">
+            <p class="saudacao"><span class="saudacao-inicio">Olá,</span> meu nome é <strong>David Ordone</strong> <span class="saudacao-ultima-linha">e eu construo <em>sites maravilhosos</em></span></p>
+            <a class="botao-index" href="bio.html">Conheça mais um pouco sobre mim</a>
+        </section>
+        <section class="secao-inicio trabalhos">
+            <h2>Trabalhos</h2>
+            <ul>
+                <li><img src="imagens/bmw.png" alt="Site da BMW"></li>
+                <li><img src="imagens/ibm.png" alt="Site da IBM"></li>
+                <li><img src="imagens/uol.png" alt="Site da UOL"></li>
             </ul>
-        </footer>
-    </body>
+            <a class="botao-index" href="portfolio.html">Veja mais</a>
+        </section>
+        <section class="secao-inicio blog">
+            <h2>Blog</h2>
+            <small>Últimos posts</small>
+            <ol>
+                <li class="mais-recente">
+                    <a href="blog.html">O essencial de design responsivo</a>
+                    <p class="inicio-post">
+                        Design responsivo tem ganho cada vez mais atenção como técnica de desenvolvimento de páginas web para dispositivos móveis. Mas como começar?
+                    </p>
+                </li>
+                <li>
+                    <a href="blog.html">Por que fazer páginas acessíveis?</a>
+                </li>
+                <li>
+                    <a href="blog.html">JavaScript não obstrusivo</a>
+                </li>
+            </ol>
+            <a class="botao-index" href="blog.html">Veja mais</a>
+        </section>
+    </main>
+    <footer>
+        <h2>Vamos conversar?</h2>
+        <p>Você pode entrar em contato comigo <a href="contato.html">por e-mail</a> ou pelo telefone <a href="tel:+5519920019371">(19) 9 2001-9371</a></p>
+    </footer>
+</body>
 </html>

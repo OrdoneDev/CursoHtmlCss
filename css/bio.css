@@ -1,15 +1,12 @@
-blockquote{
-    padding: 20px;
-}
-
 .citacao-referencia{
     background-color: #D9E5E3;
-    border: 10px solid #C2CCCA;
+    border: .5em solid #C2CCCA;
     border-bottom-color: #333;
     border-right-color: #FFF;
     box-sizing: border-box;
-    margin: 20px 40px;
-    width: 250px;
+    margin: 1em 2em;
+    padding: 1em;
+    width: 30ch;
 }
 
 #citacao-fiat{
