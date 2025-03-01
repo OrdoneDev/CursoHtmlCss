@@ -2,4 +2,4 @@
 
 Criação de páginas responsivas e estilizadas.
 
-Acesse: https://turkojanownz.github.io/CursoHtmlCss/index.html
+Acesse: https://ordonedev.github.io/CursoHtmlCss/index.html
